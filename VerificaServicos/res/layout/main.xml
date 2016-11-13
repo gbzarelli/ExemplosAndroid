@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Serviço Mobile Tracker"
+    />
+    <TextView  
+        android:id="@+id/text"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:textColor="#FF00FF00"
+    />
+    <Button
+        android:id="@+id/bt_verifica"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:text="VERIFICA"
+            />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_stop"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stop"
+            />
+        <Button
+            android:id="@+id/br_start"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:text="Start"
+            />
+    </LinearLayout>
+    <ListView  
+        android:id="@+id/list_log"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+    />
+</LinearLayout>
+

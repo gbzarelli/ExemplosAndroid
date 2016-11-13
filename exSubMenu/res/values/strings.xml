@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="outra_tela">tela 2</string>
+    <string name="phone">A</string>
+    <string name="computer">B</string>
+    <string name="menu">MENU</string>
+    <string name="sub_menu_1">C.1</string>
+    <string name="sub_menu_2">C.2</string>
+    <string name="sub_menu_3">C.3</string>
+    
+    
+    
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">       
+        
+    </style>
+        
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+    </style>
+    
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        
+    </style>
+
+</resources>

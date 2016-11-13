@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">exVerificaConexao</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_conexao">Status conexão:</string>
+    <string name="tv_tipo">Tipo conexão:</string>
+
+</resources>

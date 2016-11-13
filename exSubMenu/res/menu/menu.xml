@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/a"
+        android:title="@string/phone"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|withText"       
+    />
+   
+    <item
+        android:id="@+id/b"
+        android:title="@string/computer"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom|withText"       
+    />
+   
+    <item
+        android:id="@+id/c"
+        android:title="@string/menu"
+        android:showAsAction="ifRoom|withText"       
+    >
+        <menu>
+            <item
+                android:id="@+id/c_a"
+                android:title="@string/sub_menu_1"    
+            />
+   
+            <item
+                android:id="@+id/c_b"
+                android:title="@string/sub_menu_2"    
+            />
+   
+            <item
+                android:id="@+id/c_c"
+                android:title="@string/sub_menu_2"
+            />
+        </menu>
+    </item>
+</menu>

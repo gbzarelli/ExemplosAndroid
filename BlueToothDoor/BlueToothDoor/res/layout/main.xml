@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:tag="sz">
+<TextView
+android:id="@+id/text"
+android:text="等待发送信息\n"
+android:layout_x="0px"
+android:layout_y="2px"
+android:layout_width="158dp" android:layout_height="226dp">
+</TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/edit" android:textSize="18sp" android:layout_x="3dp" android:layout_y="220dp" android:layout_width="149dp"></EditText>
+<Button android:layout_width="74dp" android:layout_height="wrap_content" android:id="@+id/button" android:text="send" android:layout_x="152dp" android:layout_y="224dp"></Button>
+</AbsoluteLayout>

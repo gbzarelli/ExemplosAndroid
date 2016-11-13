@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+menu_lateral/menu_lateral"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" 
+              android:orientation="vertical">
+    
+    <TextView  
+        android:id="@+menu_lateral/item_tela_1"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="GO TELA 1"
+        android:padding="10sp"
+        android:background="#f0f"
+    />
+    <TextView  
+        android:id="@+menu_lateral/item_tela_2"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="GO TELA 2"
+        android:padding="10sp"
+        android:background="#ff0"
+    />
+    
+</LinearLayout>

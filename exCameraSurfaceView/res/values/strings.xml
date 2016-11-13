@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainCamera</string>
+    <string name="foto_bt_fotografar">Fotografar</string>
+    <string name="foto_bt_camera">Câmera</string>
+    <string name="foto_texto">Tirar Foto</string>
+</resources>

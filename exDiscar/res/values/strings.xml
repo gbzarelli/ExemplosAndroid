@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="hint_telefone">Entre com o telefone</string>
+    <string name="bt_discar">Discar</string>
+</resources>

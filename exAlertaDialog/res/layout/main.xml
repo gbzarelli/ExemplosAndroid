@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <Button
+        android:id="@+id/bt_ex1"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="exemplo_layout"
+    />
+    <Button
+        android:id="@+id/bt_ex2"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="exemplo_simples"
+    />
+    <Button
+        android:id="@+id/bt_ex3"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="exemplo_lista_single"
+/>
+    <Button
+        android:id="@+id/bt_ex4"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="exemplo_lista_multi"
+/>
+</LinearLayout>
+

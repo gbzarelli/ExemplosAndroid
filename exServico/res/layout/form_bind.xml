@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Exemplo Bind/Unbind de um serviço"/>
+    <Button
+    android:id="@+id/bt_inicia_servico"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Inicia Serviço"
+    />
+    <Button
+    android:id="@+id/bt_count_servico"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ver valor contador"
+    />
+    <Button
+    android:id="@+id/bt_para_servico"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Para Serviço"
+    />
+</LinearLayout>
